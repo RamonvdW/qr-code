@@ -17,6 +17,7 @@ $ source bin/activate
 - Clone the project files
 ```
 $ git clone https://github.com/RamonvdW/qr-code.git
+```
 
 - Install the pip packages
 ```
