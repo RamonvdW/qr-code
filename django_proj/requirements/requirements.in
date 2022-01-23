@@ -1,0 +1,20 @@
+# required pip packages
+
+-c constraints.in
+
+# web framework
+Django
+
+# 2FA support
+pyotp
+
+# QR code generation for 2FA
+qrcode
+
+# license check
+pip-licenses
+
+# update check
+pip-review
+
+# end of file
