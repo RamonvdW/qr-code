@@ -28,13 +28,14 @@ $ pip-sync qr-code/django_proj/requirements/requirements.txt
 
 - Run the application:
 ```
-$ cd qr-code
+$ cd QR-code
 $ chmod +x ./run.sh ./manage.py
 $ ./run.sh
 ```
 
 - Point your local browser to localhost:8000
-  Fill in the fields and press Update to get a new QR code
+- Fill in the fields and press Update to get a new QR code
 
 For questions, you can contact me on this gmail: nhb.ramonvdw
+
 You may find that some comments are in Dutch.
