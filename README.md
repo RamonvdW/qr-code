@@ -1,7 +1,7 @@
 # QR-code
 
 Need to setup an OTP application that does not support manual entry (like FreeOTP)?
-With this small Django project you can re-create the QR code.
+With this super small Django project you can re-create the QR code, provided you wrote down the secret code. Your secrets will stay local!
 
 ## Installation instructions:
 
