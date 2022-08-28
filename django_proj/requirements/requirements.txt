@@ -6,7 +6,7 @@
 #
 asgiref==3.5.2
     # via django
-django==3.2.14
+django==3.2.15
     # via
     #   -c constraints.in
     #   -r requirements.in
@@ -14,7 +14,7 @@ packaging==21.3
     # via pip-review
 pip-licenses==3.5.4
     # via -r requirements.in
-pip-review==1.1.1
+pip-review==1.2.0
     # via -r requirements.in
 ptable==0.9.2
     # via pip-licenses
@@ -22,7 +22,7 @@ pyotp==2.6.0
     # via -r requirements.in
 pyparsing==3.0.9
     # via packaging
-pytz==2022.1
+pytz==2022.2.1
     # via django
 qrcode==7.3.1
     # via -r requirements.in
