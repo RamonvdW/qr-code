@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
-#  Copyright (c) 2019-2022 Ramon van der Winkel.
+#  Copyright (c) 2019-2023 Ramon van der Winkel.
 #  All rights reserved.
 #  Licensed under BSD-3-Clause-Clear. See LICENSE file for details.
 
 """ ondersteuning QR codes voor OTP controle """
 
 from django.conf import settings
-from django.utils.encoding import force_text
+from django.utils.encoding import force_str
 from django.utils.safestring import mark_safe
 from qrcode.image.svg import SvgPathImage
 import xml.etree.ElementTree as Tree
@@ -36,7 +36,6 @@ QRCODE_VERSION = 8
 
 class SvgEmbeddedInHtmlImage(SvgPathImage):
     def _write(self, stream):
-        self._img.append(self.make_path())
         Tree.ElementTree(self._img).write(stream,
                                           encoding="utf-8",
                                           xml_declaration=False,
@@ -53,7 +52,7 @@ def make_qr_code_image(text):
                 version=QRCODE_VERSION,
                 image_factory=SvgEmbeddedInHtmlImage,
                 box_size=12, border=1)      # controls SVG image size
-    qr.add_data(force_text(text))
+    qr.add_data(force_str(text))
     return qr.make_image()
 
 
