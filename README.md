@@ -5,7 +5,7 @@ With this super small Django project you can re-create the QR code, provided you
 
 ## Installation instructions:
 
-- Tested on Linux (Debian11) with Python 3.9.2
+- Tested on Linux (Debian12) with Python 3.11.2
 
 - Create a venv:
 ```
