@@ -28,7 +28,7 @@ $ pip-sync qr-code/django_proj/requirements/requirements.txt
 
 - Run the application:
 ```
-$ cd QR-code
+$ cd qr-code
 $ chmod +x ./run.sh ./manage.py
 $ ./run.sh
 ```
