@@ -1,7 +1,7 @@
 # constraints for pip packages
 
-# stick to django 3.2 for now
-django<3.3
+# stick to django 4.x for now
+django<5
 
 # end of file
 

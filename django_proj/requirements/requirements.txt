@@ -6,7 +6,7 @@
 #
 asgiref==3.8.1
     # via django
-django==3.2.25
+django==4.2.16
     # via
     #   -c constraints.in
     #   -r requirements.in
@@ -20,8 +20,6 @@ prettytable==3.11.0
     # via pip-licenses
 pyotp==2.9.0
     # via -r requirements.in
-pytz==2024.2
-    # via django
 qrcode==8.0
     # via -r requirements.in
 sqlparse==0.5.1
