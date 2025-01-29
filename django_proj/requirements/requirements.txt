@@ -6,9 +6,9 @@
 #
 asgiref==3.8.1
     # via django
-django==4.2.17
+django==4.2.18
     # via
-    #   -c constraints.in
+    #   -c /home/ramon/projs/qrcode-venv/project/django_proj/requirements/constraints.in
     #   -r requirements.in
 packaging==24.2
     # via pip-review
@@ -16,13 +16,13 @@ pip-licenses==5.0.0
     # via -r requirements.in
 pip-review==1.3.0
     # via -r requirements.in
-prettytable==3.12.0
+prettytable==3.13.0
     # via pip-licenses
 pyotp==2.9.0
     # via -r requirements.in
 qrcode==8.0
     # via -r requirements.in
-sqlparse==0.5.2
+sqlparse==0.5.3
     # via django
 tomli==2.2.1
     # via pip-licenses
