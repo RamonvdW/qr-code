@@ -6,7 +6,7 @@
 #
 asgiref==3.8.1
     # via django
-django==4.2.21
+django==4.2.23
     # via
     #   -c /home/ramon/projs/qrcode-venv/project/django_proj/requirements/constraints.in
     #   -r requirements.in
