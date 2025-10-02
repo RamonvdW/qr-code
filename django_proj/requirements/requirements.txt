@@ -4,9 +4,9 @@
 #
 #    pip-compile --strip-extras requirements.in
 #
-asgiref==3.9.1
+asgiref==3.9.2
     # via django
-django==4.2.24
+django==4.2.25
     # via
     #   -c /home/ramon/projs/qrcode-venv/project/django_proj/requirements/constraints.in
     #   -r requirements.in
@@ -26,7 +26,7 @@ sqlparse==0.5.3
     # via django
 tomli==2.2.1
     # via pip-licenses
-wcwidth==0.2.13
+wcwidth==0.2.14
     # via prettytable
 
 # The following packages are considered to be unsafe in a requirements file:
