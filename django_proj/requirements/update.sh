@@ -5,7 +5,9 @@
 #  Licensed under BSD-3-Clause-Clear. See LICENSE file for details.
 
 # ga naar de directory waar het script staat
-cd $(dirname $0)
+SCRIPT_DIR=$(realpath "$0")             # volg links naar het echte script
+SCRIPT_DIR=$(dirname "$SCRIPT_DIR")     # directory van het script
+cd "$SCRIPT_DIR" || exit 1
 
 for req in requirements
 do
@@ -17,8 +19,8 @@ do
 done
 
 echo
-echo "Press enter to pip-sync dev, ^C to abort"
-read
+echo "Press ENTER to start pip-sync (or ^C to abort)"
+read -r
 
 echo "[INFO] Running pip-sync requirements.txt"
 pip-sync requirements.txt

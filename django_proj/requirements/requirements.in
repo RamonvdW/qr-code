@@ -11,10 +11,4 @@ pyotp
 # QR code generation for 2FA
 qrcode
 
-# license check
-pip-licenses
-
-# update check
-pip-review
-
 # end of file
