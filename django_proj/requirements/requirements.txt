@@ -4,15 +4,15 @@
 #
 #    pip-compile --strip-extras requirements.in
 #
-asgiref==3.11.1
+asgiref==3.12.1
     # via django
 django==4.2.30
     # via
     #   -c constraints.in
     #   -r requirements.in
-pyotp==2.9.0
+pyotp==2.10.0
     # via -r requirements.in
 qrcode==8.2
     # via -r requirements.in
-sqlparse==0.5.5
+sqlparse==0.6.0
     # via django
